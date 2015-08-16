@@ -1,0 +1,369 @@
+2013-07-03 Build User <jenkins@coast-project.org>
+
+      
+      PKGBUILD prepared for new jenkins-ci version 1.521
+
+
+2013-06-26 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.520-1:
+      PKGBUILD prepared for new jenkins-ci version 1.520
+
+
+2013-06-18 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.519-1:
+      PKGBUILD prepared for new jenkins-ci version 1.519
+
+
+2013-06-11 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.518-1:
+      PKGBUILD prepared for new jenkins-ci version 1.518
+
+
+2013-06-03 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.517-1:
+      PKGBUILD prepared for new jenkins-ci version 1.517
+
+
+2013-05-28 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.516-1:
+      PKGBUILD prepared for new jenkins-ci version 1.516
+
+      not enabling/starting systemd service anymore, hint from @hacosta
+
+      simplified jenkins-ci install file
+
+      using tmpfiles.d to create/delete /var/cache/jenkins dir
+
+      Change-Id: I3c7d2770c071796b60d2a912f20e0b7d87dda28e
+
+
+2013-05-22 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      corrected chown flaw with empty dir
+
+      adjusted directory test statements
+
+      Change-Id: I1499ca92647f0951c5accd6664d37d5b31269581
+
+
+2013-05-22 Marcel Huber <marcel.huber@hsr.ch>
+
+      jenkins-ci-1.515-2:
+      corrected package version/release
+
+      Change-Id: I62ee2b1a3a136767caf8793be5c1fd64df236a6a
+
+
+2013-05-22 Marcel Huber <marcel.huber@hsr.ch>
+
+     
+      Merge "omitting systemctl messages on stderr"
+
+
+2013-05-22 Marcel Huber <marcel.huber@hsr.ch>
+
+     
+      omitting systemctl messages on stderr
+
+      Change-Id: Ia3b53294052de4b1a406f45eb27684266f53bd93
+
+
+2013-05-19 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.515-1:
+      PKGBUILD prepared for new jenkins-ci version 1.515
+
+
+2013-05-02 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.514-1:
+      PKGBUILD prepared for new jenkins-ci version 1.514
+
+
+2013-04-29 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.513-1:
+      PKGBUILD prepared for new jenkins-ci version 1.513
+
+
+2013-04-22 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.512-1:
+      PKGBUILD prepared for new jenkins-ci version 1.512
+
+
+2013-04-15 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.511-1:
+      PKGBUILD prepared for new jenkins-ci version 1.511
+
+
+2013-04-09 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.510-1:
+      PKGBUILD prepared for new jenkins-ci version 1.510
+
+      added eclipse project file and removed dialog
+
+      Change-Id: Ib8c1de0e596840cf82234a837d1faa328f421196
+
+
+2013-02-27 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.503-1:
+      PKGBUILD prepared for new jenkins-ci version 1.503
+
+
+2013-02-17 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.502-1:
+      PKGBUILD prepared for new jenkins-ci version 1.502
+
+
+2013-02-12 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.501-1:
+      PKGBUILD prepared for new jenkins-ci version 1.501
+
+
+2013-01-31 Marcel Huber <marcel.huber@hsr.ch>
+
+      jenkins-ci-1.500-2:
+      changed to using /bin/sh as service executor
+
+      this simplifies configuration as only /etc/conf.d/jenkins needs to be 
+      adjusted for options or a different JVM
+
+      Change-Id: I47be4e7709a1836e8ae4abca9716e2548997fcd2
+
+
+2013-01-27 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.500-1:
+      PKGBUILD prepared for new jenkins-ci version 1.500
+
+
+2013-01-24 Marcel Huber <marcelhuberfoo@gmail.com>
+
+      jenkins-ci-1.499-2:
+      Disabling systemd service during update to fix potential
+
+      problems when replacing the service file
+
+      Change-Id: Ic4d4162d1520b3300bceacfee92eb9abdfabd899
+
+
+2013-01-23 Marcel Huber <marcelhuberfoo@gmail.com>
+
+      jenkins-ci-1.499-1:
+      applied corrections as suggested by users of the package
+
+      removed support for non-systemd systems
+
+      using dialog to ask inputs from the installer
+
+      Change-Id: Ib8f813eba71e24ad3bb1fa46f96f74dc9f01d22b
+
+
+2012-11-19 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.491-1:
+      PKGBUILD prepared for new jenkins-ci version 1.491
+
+
+2012-11-13 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.490-1:
+      PKGBUILD prepared for new jenkins-ci version 1.490
+
+
+2012-11-04 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.489-1:
+      PKGBUILD prepared for new jenkins-ci version 1.489
+
+
+2012-10-29 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.488-1:
+      PKGBUILD prepared for new jenkins-ci version 1.488
+
+
+2012-10-24 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.487-1:
+      PKGBUILD prepared for new jenkins-ci version 1.487
+
+
+2012-10-15 Build User <jenkins@coast-project.org>
+
+     
+      PKGBUILD prepared for new jenkins-ci version 1.486
+
+
+2012-10-08 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.485-1:
+      PKGBUILD prepared for new jenkins-ci version 1.485
+
+
+2012-10-01 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.484-1:
+      PKGBUILD prepared for new jenkins-ci version 1.484
+
+
+2012-09-24 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.483-1:
+      PKGBUILD prepared for new jenkins-ci version 1.483
+
+
+2012-09-17 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.482-1:
+      PKGBUILD prepared for new jenkins-ci version 1.482
+
+
+2012-09-10 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.481-1:
+      PKGBUILD prepared for new jenkins-ci version 1.481
+
+
+2012-09-03 Build User <jenkins@coast-project.org>
+
+      jenkins-ci-1.480-1:
+      PKGBUILD prepared for new jenkins-ci version 1.480
+
+
+2012-08-30 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      adjusted systemd description and added more limit settings
+
+
+2012-08-30 Marcel Huber <marcelhuberfoo@gmail.com>
+
+      jenkins-ci-1.479-1:
+      PKGBUILD prepared for new jenkins-ci version 1.479
+
+
+2012-08-22 Marcel Huber <marcelhuberfoo@gmail.com>
+
+      jenkins-ci-1.478-1:
+      readded JENKINS_HOME setting in conf.d/jenkins
+
+      limiting data size in systemd.service file
+
+
+2012-08-21 Build User <jenkins@coast-project.org>
+
+     
+      corrected checksum of war file
+
+
+2012-08-21 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      update to jenkins 1.478
+
+
+2012-08-17 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      streamlined systemd start script
+
+      not using fork and bash anymore but using systemd features
+
+
+2012-08-15 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      setting heap and stack size limit defaults
+
+
+2012-08-13 Marcel Huber <marcelhuberfoo@gmail.com>
+
+      jenkins-ci-1.477-1:
+      corrected download url to use pkgver
+
+
+2012-08-10 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      changelog added
+
+
+2012-08-10 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      corrected rc.d start script
+
+      corrected conf.d settings to always use /usr/bin/java
+
+
+2012-08-09 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      added systemd service config
+
+      moved more params into conf.d/jenkins
+
+
+2012-05-16 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      added missing file
+
+
+2012-05-16 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      added message when removing package to remind manual removal of user
+      directory
+
+
+2012-05-15 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      adjusted checksums
+
+
+2012-05-15 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      corrected rc.d start script
+
+
+2012-05-15 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      added files to backup
+
+      installing more files
+
+
+2012-05-15 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      changed rc.d startscript based on template from abs package
+
+
+2012-05-14 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      on the way to generalize arch jenkins start script
+
+
+2012-05-14 Marcel Huber <marcelhuberfoo@gmail.com>
+
+     
+      original files imported
+
